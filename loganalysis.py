@@ -1,8 +1,14 @@
+#!/usr/bin/env python
+
 import psycopg2
 
 
 def main():
 
+    """
+    This program will connect to a local database and calculate three
+    different metrics related to http requests made on a website.
+    """
     print("What are the most popular three articles of all time?\n")
     get_most_popular_article()
     print("Who are the most popular article authors of all time?\n")
